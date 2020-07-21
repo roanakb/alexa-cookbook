@@ -5,9 +5,9 @@ const fs = require('fs');
 
 const mode = 'dev'; // or 'prod'
 
-const clientID = `amzn1.application-oa2-client.72677....`;
+const clientID = `amzn1.application-oa2-client.a835c71489e741e7b6a3748180f4e173`;
 
-const clientSecret = `39ea4....`;
+const clientSecret = `d65ac2bf2b8853ecefe56f26705786084027acb50e30eccf69b49811f231a06b`;
 
 const nextEvent = getNextEvent('./skill/lambda/custom/schedule.txt');
 

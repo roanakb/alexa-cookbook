@@ -4,11 +4,11 @@ const https = require('https');
 const mode = 'dev'; // or 'prod'
 
 
-const clientID = `amzn1.application-oa2-client.274a50e4....`;
+const clientID = `amzn1.application-oa2-client.a835c71489e741e7b6a3748180f4e173`;
 
-const clientSecret = `97a166....`;
+const clientSecret = `d65ac2bf2b8853ecefe56f26705786084027acb50e30eccf69b49811f231a06b`;
 
-let userId1 = `amzn1.ask.account.AHVVDYK7EA.....`;
+let userId1 = `amzn1.ask.account.AHZEW7E6VBF2NIM4HSAQ32OBK4UIZKAHWRQK6QPLAD2VSMRQXFWK2CL2AJE2EP5WUKIKCLIVL3B3ZWMQOBQT5GLSF52WGKC2FMTA3HSTRA6HGMQZXLJDKO7ENTZAVY45OBOS3W3RA45WPN6IPVTZMCGVA25MJZHRGM3JAXGTG7YNYVPGXBR5AS4UROH5DLGCCB3K4AABQQIAGDA`;
 
 
 notify(userId1, 'ORDER', 3); // order shipped, arrives in 3 days
@@ -193,4 +193,3 @@ function sendEvent(eventType, token, userId, message) {
     });
 
 }
-
